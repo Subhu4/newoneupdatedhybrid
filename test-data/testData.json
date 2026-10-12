@@ -1,0 +1,127 @@
+{
+  "postRequirement": {
+    "product": "Office Chairs",
+    "interestedIn": "Computer Chairs",
+    "quantity": "25",
+    "unit": "Piece",
+    "supplierPreference": "All India",
+    "mobile": "8070987890",
+    "blankValue": "",
+    "zeroQuantity": "0",
+    "negativeQuantity": "-1",
+    "invalidMobile": "12345",
+    "supplierPreferenceOptions": [
+      "All India",
+      "Near Me",
+      "Specific States"
+    ],
+    "specificStatesPreference": "Specific States",
+    "states": [
+      "Andaman & Nicobar islands",
+      "Andhra Pradesh",
+      "Arunachal Pradesh"
+    ]
+  },
+  "buyers": {
+    "buyerMenuOptions": [
+      "Post Buy Requirement",
+      "Browse Suppliers",
+      "Manufacturers Directory",
+      "Country Suppliers",
+      "Buyer FAQ"
+    ],
+    "industryFirst": "Agricultural Products & Equipment",
+    "industryMiddle": "Textiles, Yarn & Fabrics",
+    "industryLast": "Transportation & Logistics",
+    "allIndustries": [
+      "Agricultural Products & Equipment",
+      "Apparel & Fashion Accessories",
+      "Automobile Parts & Accessories",
+      "Ayurveda & Herbal Product",
+      "Business Services",
+      "Chemical & Chemical Products",
+      "Computers & Internet",
+      "Consumer Electronics & Home Appliances",
+      "Cosmetics & Personal Care Products",
+      "Education & Training Services",
+      "Electronics & Electrical",
+      "Engineering Service",
+      "Event Management & Photography",
+      "Financial & Legal Services",
+      "Food & Beverage Products Suppliers",
+      "Furniture & Carpentry Services",
+      "Gifts & Crafts",
+      "Home Furnishing Products & Suppliers",
+      "Home Supplies & Household Products",
+      "Hospitals & Diagnosis Supplies",
+      "HR Planning & Recruitment",
+      "Industrial Machinery & Plant Equipment",
+      "Industrial Supplies",
+      "Industrial Tools & Equipment Suppliers",
+      "Jewelry & Jewelry Designers",
+      "Kitchen Utensils & Appliances",
+      "Media Production & Advertising",
+      "Minerals & Metals",
+      "Office Supplies",
+      "Packaging & Paper",
+      "Pharmaceutical & Healthcare Products",
+      "Real Estate, Building, Construction Material & Services",
+      "Scientific & Laboratory Instruments",
+      "Security Products & Services",
+      "Sports Goods & Entertainment",
+      "Telecommunication",
+      "Textiles, Yarn & Fabrics",
+      "Tours, Travels & Hotels",
+      "Toys & Games",
+      "Transportation & Logistics"
+    ],
+    "agricultureCategories": [
+      "Bird, Poultry & Animal Feed",
+      "Seeds & Plant Saplings",
+      "Fresh Flowers & Plants",
+      "Fertilizers & Soil Additives",
+      "Pets & Farm Animals",
+      "Coir & Agro Products",
+      "Farming Tools, Equipment & Machines",
+      "Tractors & Tractor Parts",
+      "Agricultural Irrigation & Harvesting Equipment",
+      "Pesticides & Insecticides"
+    ],
+    "popularProductsSection": "Purchase Leads Across Popular Products",
+    "popularProducts": [
+      "A4 Size Paper",
+      "Anti Iron Gel",
+      "Old Coins",
+      "Cashew Nuts",
+      "Turmeric Finger"
+    ],
+    "a4Product": "A4 Size Paper",
+    "latestLeadPositions": [
+      1,
+      5,
+      10
+    ],
+    "connectButton": "Connect With Genuine Buyers"
+  },
+  "expected": {
+    "callUsAcceptedTexts": [
+      "Call us : 9700-318-318",
+      "Support : +91-9700318318",
+      "9700-318-318"
+    ],
+    "introText": "Access verified buy leads and trade leads by industry to connect with serious global buyers and grow your business faster.",
+    "buyerMenuCount": 5,
+    "industrySubText": "Find industry-specific buy leads from verified buyers.",
+    "industryCount": 40,
+    "agricultureUrl": "https://www.exportersindia.com/buyers/agriculture.htm",
+    "agricultureHeading": "Buyers for Agricultural Products & Equipment",
+    "agricultureMinimumCategoryCount": 10,
+    "textilesUrlPart": "/buyers/textiles.htm",
+    "a4UrlPart": "/buyers/a4-size-copy-paper.htm",
+    "a4Heading": "A4 Size Paper Buy Leads",
+    "maskedMobileFormat": "+91-88******83",
+    "minimumMaskedCount": 10,
+    "registrationUrlPart": "register-business-online?joinfree=buyleadstartsell",
+    "minimumRegistrationInputs": 3
+  }
+}

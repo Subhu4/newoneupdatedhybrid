@@ -1,0 +1,25 @@
+{
+  "name": "exportersindia-playwright-e2e",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hybrid Playwright + TypeScript E2E automation framework for ExportersIndia.",
+  "scripts": {
+    "test": "npm run clean:reports && node run-tests.js",
+    "test:headed": "npm run clean:reports && node -e \"process.env.HEADLESS='false'; require('./run-tests.js')\"",
+    "test:debug": "npm run clean:reports && playwright test --debug",
+    "test:chromium": "npm run clean:reports && node run-tests.js",
+    "allure:generate": "allure generate reports/allure-results -o reports/allure-report --clean",
+    "allure:open": "allure open reports/allure-report",
+    "report": "playwright show-report playwright-report",
+    "clean:reports": "node -e \"const fs=require('fs'); for(const p of ['playwright-report','test-results','reports/logs','reports/run-report','reports/screenshots','reports/allure-results','reports/allure-report']) fs.rmSync(p,{recursive:true,force:true});\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^24.0.0",
+    "allure-commandline": "^2.36.0",
+    "allure-playwright": "^3.4.1",
+    "dotenv": "^17.2.2",
+    "typescript": "^5.9.2"
+  }
+}
